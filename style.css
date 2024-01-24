@@ -1,0 +1,170 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+  width: 100%;
+  height: 100dvh;
+  margin: 0;
+}
+body nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100px;
+  width: 100%;
+  top: 5px;
+}
+body nav .logo {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  margin-top: 3%;
+}
+body nav .logo img {
+  height: 110px;
+  margin-left: 60px;
+}
+body nav .menu ul {
+  display: flex;
+  margin-right: 60px;
+  font-size: 25px;
+  gap: 50px;
+}
+body nav .menu ul a {
+  position: relative;
+  color: #000;
+  text-decoration: none !important;
+}
+body nav .menu ul a::after {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 2px;
+  background-color: #000;
+  bottom: 0;
+  left: 0;
+  transform: scaleX(0);
+  transform-origin: bottom left;
+  transition: transform 0.3s ease !important;
+}
+body nav .menu ul a:hover::after {
+  transform: scaleX(1) !important;
+}
+body .intro {
+  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705882433/young-woman-attending-group-therapy-looking-camera_qziqef.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  height: 100%;
+  margin: 0;
+  align-items: center;
+  justify-content: center;
+  background-color: gray;
+}
+body .intro h1 {
+  display: flex;
+  font-size: 80px;
+  margin-left: 60px;
+  padding-top: 250px;
+  color: #fff;
+  text-align: center;
+}
+body .intro p {
+  display: flex;
+  font-size: 30px;
+  margin-left: 130px;
+  text-align: center;
+  color: #fff;
+}
+body .intro .connect {
+  display: flex;
+  gap: 60%;
+  padding-top: 40px;
+}
+body .intro .connect button {
+  color: #fff;
+  background-color: rgb(22, 137, 238);
+  margin-left: 240px;
+  width: 350px;
+  height: 100px;
+  border-radius: 25px;
+  font-size: 30px;
+}
+body .intro .connect ul {
+  display: flex;
+  flex-direction: column;
+  font-size: 30px;
+}
+body .intro .connect ul a {
+  color: #fff;
+  margin-right: 1px;
+}
+body .cards {
+  width: 100%;
+  height: 700px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15%;
+  text-align: center;
+}
+body .cards .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+body .cards .card img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50%;
+}
+body .activities {
+  background: rgb(22, 137, 238);
+  color: #fff;
+  align-items: center;
+  justify-content: center;
+  text-align: center;
+  margin: 0;
+}
+body .activities h2 {
+  font-size: 30px;
+  padding-top: 75px;
+}
+body .activities p {
+  font-size: 25px;
+}
+body .activities .cards2 {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3%;
+  height: 700px;
+}
+body .activities .cards2 .card2 {
+  width: 300px;
+  height: 300px;
+  gap: 8px;
+}
+body .activities .cards2 .card2 img {
+  width: 300px;
+  height: 300px;
+}
+body .activities .cards2 .card2 h3 {
+  font-size: 30px;
+}
+body .activities .cards2 .card2 p {
+  font-size: medium;
+}
+body .activities .btn {
+  display: flex;
+  justify-content: center;
+  gap: 3%;
+}
+body .activities .btn button {
+  background-color: rgb(22, 137, 238);
+  color: #fff;
+  width: 300px;
+  height: 100px;
+  border-radius: 25px;
+  border-color: #fff;
+  margin-bottom: 50px;
+}/*# sourceMappingURL=style.css.map */
