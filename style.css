@@ -8,7 +8,7 @@ body nav {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  height: 100px;
+  height: 150px;
   width: 100%;
   top: 5px;
 }
@@ -16,7 +16,6 @@ body nav .logo {
   height: 120px;
   display: flex;
   justify-content: center;
-  margin-top: 3%;
 }
 body nav .logo img {
   height: 110px;
@@ -49,15 +48,15 @@ body nav .menu ul a:hover::after {
   transform: scaleX(1) !important;
 }
 body .intro {
-  background-image: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705882433/young-woman-attending-group-therapy-looking-camera_qziqef.jpg);
+  background: url(https://res.cloudinary.com/dhxqidnfl/image/upload/v1705882433/young-woman-attending-group-therapy-looking-camera_qziqef.jpg);
   background-size: cover;
-  background-position: center center;
-  background-repeat: no-repeat;
-  height: 100%;
+  flex-direction: column;
+  display: flex;
+  height: -moz-fit-content;
+  height: fit-content;
   margin: 0;
   align-items: center;
   justify-content: center;
-  background-color: gray;
 }
 body .intro h1 {
   display: flex;
@@ -80,13 +79,15 @@ body .intro .connect {
   padding-top: 40px;
 }
 body .intro .connect button {
+  width: 300px;
+  height: 90px;
+  background: rgb(22, 137, 238);
+  border-radius: 1rem;
+  border-color: #fff;
   color: #fff;
-  background-color: rgb(22, 137, 238);
-  margin-left: 240px;
-  width: 350px;
-  height: 100px;
-  border-radius: 25px;
-  font-size: 30px;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 12%;
 }
 body .intro .connect ul {
   display: flex;
@@ -99,7 +100,7 @@ body .intro .connect ul a {
 }
 body .cards {
   width: 100%;
-  height: 700px;
+  height: 500px;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -124,10 +125,11 @@ body .activities {
   justify-content: center;
   text-align: center;
   margin: 0;
+  height: 800px;
 }
 body .activities h2 {
   font-size: 30px;
-  padding-top: 75px;
+  padding-top: 40px;
 }
 body .activities p {
   font-size: 25px;
@@ -137,7 +139,8 @@ body .activities .cards2 {
   justify-content: center;
   align-items: center;
   gap: 3%;
-  height: 700px;
+  height: -moz-fit-content;
+  height: fit-content;
 }
 body .activities .cards2 .card2 {
   width: 300px;
@@ -157,14 +160,17 @@ body .activities .cards2 .card2 p {
 body .activities .btn {
   display: flex;
   justify-content: center;
+  align-items: center;
   gap: 3%;
 }
 body .activities .btn button {
-  background-color: rgb(22, 137, 238);
-  color: #fff;
   width: 300px;
-  height: 100px;
-  border-radius: 25px;
+  height: 90px;
+  background: transparent;
+  border-radius: 1rem;
   border-color: #fff;
-  margin-bottom: 50px;
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.2rem;
+  margin-top: 12%;
 }/*# sourceMappingURL=style.css.map */
